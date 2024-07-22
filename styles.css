@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif; /*poppins looks better than roboto*/
+    margin :0;
+    padding: 2;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+
+header 
+{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo
+{
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a
+{
+    display: inline;
+    text-decoration: none;
+    color:#3a6cf4;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.navigation a:hover
+{
+    color: #601cfc;
+
+
+}
+
+section 
+{
+    padding: 100px 200px;
+}
+
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(images/background_img.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+
+.main h2 
+{
+    color :#601cfc;
+    font-weight: 600;
+    font-size: 1.4em;
+
+}
+
+.main h2 span
+{
+    color :#4e9eff;
+    font-weight: 600;
+    font-size: 2em;
+    display: inline-block;
+    margin-top :10px ;
+
+
+}
+.main h3
+{
+    color :#601cfc;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    margin-top :10px ;
+    margin-bottom: 30px;
+
+}
+
+.main_button
+{
+    color: #f0f0f0;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: inline-block;
+    border-radius: 15px ;
+    letter-spacing: 1px;
+    padding: 0.9em 2.1em;
+    margin-bottom: 40px;
+    transition: 0.7 ease;
+}
+
+.main_button:hover
+{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social_icons a
+{
+    font-size: 1.6em;
+    padding-right: 7px;
+    padding-left: 40px ;
+    transform: scale(1.1);
+    
+
+
+}
+
+.about-section ,.work-section , .resume-section, .contact-section
+{    text-align: center;
+    padding: 20px;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    background-color: #601cfc;
+    color: white;
+    padding: 1.2em;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-nav ul li {
+    margin: 0 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+
+}
+
+hr {
+    border: none;
+    height: 2em;
+    background-color: #601cfc;
+    margin: 0px 0; 
+}
